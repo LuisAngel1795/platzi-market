@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
 	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+	annotationProcessor 'org.projectlombok:lombok:1.18.26'
 	implementation group: 'org.postgresql', name: 'postgresql'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
